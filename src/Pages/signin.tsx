@@ -17,7 +17,7 @@ export function Signin() {
           <label className="relative">
             <input type="checkbox" className="peer sr-only" />
             <span
-              className="w-4 h-4 block rounded border border-red-500 bg-red-500
+              className="w-4 h-4 block rounded border cursor-pointer border-red-500 bg-red-500
                  peer-checked:bg-green-500 peer-checked:border-green-500 transition-colors"
             ></span>
           </label>
@@ -35,7 +35,7 @@ export function Signin() {
           </span>
         </div>
         <div className="flex items-center justify-center">
-          <button className="w-24 mt-10 h-24 rounded-3xl bg-[#21C25F] font-semibold">
+          <button className="w-24 mt-10 h-24 rounded-3xl cursor-pointer bg-[#21C25F] duration-500 hover:bg-[#137438] font-semibold">
             ENTRAR
           </button>
         </div>
