@@ -1,9 +1,9 @@
 import "./App.css";
-import { Chat } from "./Pages/chat";
+import { Profile } from "./Pages/profile";
 // import { Signin } from "./Pages/signin";
 
 function App() {
-  return <Chat />; // Change to <Signin /> to render the Signin page
+  return <Profile />; // Change to <Signin /> to render the Signin page
 }
 
 export default App;

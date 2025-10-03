@@ -1,5 +1,5 @@
 import Screen from "../components/layout/screen";
-
+// Menu de Funcionalidades do WebApp
 export function Menu() {
   return (
     <Screen
